@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Bayesian methods for policy evaluation",
+    "chat_messages": [
+      {"sender": "human", "text": "How would you set up a Bayesian framework for evaluating a job-training program?"},
+      {"sender": "assistant", "text": "Start with a prior over the treatment effect informed by past program evaluations, then update with your outcome data..."},
+      {"sender": "human", "text": "What priors are defensible when past evaluations disagree?"},
+      {"sender": "assistant", "text": "You can use a hierarchical prior that treats past studies as draws from a distribution of effects..."},
+      {"sender": "human", "text": "How do I communicate posterior uncertainty to policymakers?"},
+      {"sender": "assistant", "text": "Report credible intervals alongside the probability that the effect exceeds a policy-relevant threshold..."}
+    ]
+  },
+  {
+    "name": "Community detection on citation networks",
+    "chat_messages": [
+      {"sender": "human", "text": "What's the difference between Louvain and Leiden for clustering a citation graph?"},
+      {"sender": "assistant", "text": "Leiden fixes Louvain's badly-connected-communities problem and guarantees well-connected partitions..."},
+      {"sender": "human", "text": "How should I pick the resolution parameter?"},
+      {"sender": "assistant", "text": "Sweep it and look for a plateau in partition stability across random seeds..."},
+      {"sender": "human", "text": "Can I combine it with spectral methods?"},
+      {"sender": "assistant", "text": "Yes — spectral coordinates of cluster centroids give you a low-dimensional map of how communities relate..."}
+    ]
+  },
+  {
+    "name": "Ethics of AI-assisted peer review",
+    "chat_messages": [
+      {"sender": "human", "text": "Should journals allow LLMs to draft referee reports?"},
+      {"sender": "assistant", "text": "The core tensions are confidentiality of the manuscript, accountability for judgments, and homogenization of standards..."},
+      {"sender": "human", "text": "What would a disclosure policy look like?"},
+      {"sender": "assistant", "text": "Reviewers could declare tool use and attest that judgments are their own, similar to conflict-of-interest statements..."},
+      {"sender": "human", "text": "Is there empirical work on detection?"},
+      {"sender": "assistant", "text": "There are studies estimating the share of AI-generated text in reviews via stylometric shifts after ChatGPT's release..."}
+    ]
+  },
+  {
+    "name": "Measurement error in survey experiments",
+    "chat_messages": [
+      {"sender": "human", "text": "How does differential measurement error bias treatment effect estimates in survey experiments?"},
+      {"sender": "assistant", "text": "If the error correlates with treatment assignment, the bias can be in either direction and standard errors understate uncertainty..."},
+      {"sender": "human", "text": "What designs mitigate it?"},
+      {"sender": "assistant", "text": "Multiple measures per construct, anchoring vignettes, and validation subsamples with gold-standard measurement..."},
+      {"sender": "human", "text": "Any estimators that model the error directly?"},
+      {"sender": "assistant", "text": "Errors-in-variables and MIMIC-style latent variable models are the usual starting points..."}
+    ]
+  }
+]

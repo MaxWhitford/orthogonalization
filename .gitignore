@@ -1,0 +1,12 @@
+# Conversation data and derived artifacts are personal — never commit them.
+data/
+output/
+*.env
+.env*
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
